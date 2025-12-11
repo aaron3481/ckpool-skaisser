@@ -6385,7 +6385,7 @@ out_nowb:
 			if (new_share(sdata, hash, id)) {
 				/* Log differently based on whether share meets target diff */
 				if (sdiff >= diff) {
-					LOGINFO("Accepted client %s share diff %s/%.0f/%s: \t\t%s",
+					LOGINFO("Accepted client %s share diff %s/%.0f/%s: \t\t\t%s",
 						client->identity, sdiffsuffix, diff, wdiffsuffix, hexhash);
 				}
 				else {
